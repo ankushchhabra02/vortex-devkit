@@ -1,2 +1,0 @@
-'use strict';var chunkVG6PP7VH_js=require('../chunk-VG6PP7VH.js');require('../chunk-L6AOGTNQ.js');Object.defineProperty(exports,"copyToClipboard",{enumerable:true,get:function(){return chunkVG6PP7VH_js.a}});Object.defineProperty(exports,"downloadFile",{enumerable:true,get:function(){return chunkVG6PP7VH_js.c}});Object.defineProperty(exports,"getDeviceType",{enumerable:true,get:function(){return chunkVG6PP7VH_js.b}});//# sourceMappingURL=index.js.map
-//# sourceMappingURL=index.js.map

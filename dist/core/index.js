@@ -1,2 +1,0 @@
-'use strict';var chunkQ27MDEFC_js=require('../chunk-Q27MDEFC.js'),chunkL6AOGTNQ_js=require('../chunk-L6AOGTNQ.js');Object.defineProperty(exports,"assert",{enumerable:true,get:function(){return chunkQ27MDEFC_js.a}});Object.defineProperty(exports,"isBrowser",{enumerable:true,get:function(){return chunkL6AOGTNQ_js.a}});//# sourceMappingURL=index.js.map
-//# sourceMappingURL=index.js.map
