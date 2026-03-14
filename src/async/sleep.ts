@@ -1,0 +1,8 @@
+/**
+ * Pauses asynchronous execution for the specified time.
+ * 
+ * @param ms - The number of milliseconds to sleep for.
+ */
+export function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}

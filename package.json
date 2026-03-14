@@ -1,0 +1,77 @@
+{
+  "name": "vortex-devkit",
+  "version": "0.1.0",
+  "description": "An all-in-one developer toolkit containing React hooks, AI/RAG utilities, and async/browser helpers.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./hooks": {
+      "require": "./dist/hooks/index.js",
+      "import": "./dist/hooks/index.mjs",
+      "types": "./dist/hooks/index.d.ts"
+    },
+    "./async": {
+      "require": "./dist/async/index.js",
+      "import": "./dist/async/index.mjs",
+      "types": "./dist/async/index.d.ts"
+    },
+    "./ai": {
+      "require": "./dist/ai/index.js",
+      "import": "./dist/ai/index.mjs",
+      "types": "./dist/ai/index.d.ts"
+    },
+    "./browser": {
+      "require": "./dist/browser/index.js",
+      "import": "./dist/browser/index.mjs",
+      "types": "./dist/browser/index.d.ts"
+    },
+    "./utils": {
+      "require": "./dist/utils/index.js",
+      "import": "./dist/utils/index.mjs",
+      "types": "./dist/utils/index.d.ts"
+    },
+    "./core": {
+      "require": "./dist/core/index.js",
+      "import": "./dist/core/index.mjs",
+      "types": "./dist/core/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "ai",
+    "rag",
+    "llm",
+    "utils",
+    "async"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "@types/react": "^19.0.10",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
+  }
+}
