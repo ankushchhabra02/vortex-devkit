@@ -74,7 +74,22 @@ await copyToClipboard("npm install vortex-devkit");
 downloadFile(reportCSV, "report.csv", "text/csv");
 ```
 
-### 🧰 Core Utils (`vortex-devkit/utils`)
+### 🏗️ Core Base (`vortex-devkit/core`)
+Base primitives and assertions for foundational logic.
+
+```typescript
+import { isBrowser, assert } from 'vortex-devkit/core';
+
+// Environment checks
+if (isBrowser) {
+  console.log("Running in browser environment");
+}
+
+// Invariant assertions
+assert(user != null, "User must be authenticated");
+```
+
+### 🧰 Utilities (`vortex-devkit/utils`)
 ```typescript
 import { cn, logger, timeAgo, safeParseJSON, prettyJSON } from 'vortex-devkit/utils';
 
