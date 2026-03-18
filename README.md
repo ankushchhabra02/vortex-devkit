@@ -1,6 +1,21 @@
+<div align="center">
+
 # 🌪️ vortex-devkit
 
-The all-in-one developer toolkit for modern web applications. `vortex-devkit` provides strongly-typed React hooks, async helpers, RAG/AI utilities, browser interactors, and general developer utilities—all bundled with zero configuration and 100% tree-shakeable exports.
+The all-in-one developer toolkit for modern web applications.
+
+[![npm version](https://img.shields.io/npm/v/vortex-devkit)](https://npmjs.com/package/vortex-devkit)
+[![npm downloads](https://img.shields.io/npm/dt/vortex-devkit)](https://npmjs.com/package/vortex-devkit)
+[![npm weekly](https://img.shields.io/npm/dw/vortex-devkit)](https://npmjs.com/package/vortex-devkit)
+[![License: MIT](https://img.shields.io/npm/l/vortex-devkit)](https://npmjs.com/package/vortex-devkit)
+[![TypeScript](https://img.shields.io/badge/TypeScript-native-3178C6)](https://npmjs.com/package/vortex-devkit)
+
+</div>
+
+---
+
+`vortex-devkit` provides strongly-typed React hooks, async helpers, RAG/AI utilities, browser interactors, and general developer utilities—all bundled with zero configuration and 100% tree-shakeable exports.
+
 
 ## 📦 Installation
 
