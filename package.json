@@ -1,6 +1,6 @@
 {
   "name": "vortex-devkit",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "An all-in-one developer toolkit containing React hooks, AI/RAG utilities, and async/browser helpers.",
   "repository": {
     "type": "git",
