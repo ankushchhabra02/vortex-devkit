@@ -1,6 +1,6 @@
 {
   "name": "vortex-devkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An all-in-one developer toolkit containing React hooks, AI/RAG utilities, and async/browser helpers.",
   "repository": {
     "type": "git",
@@ -16,39 +16,39 @@
   "sideEffects": false,
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "require": "./dist/index.js",
-      "import": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
+      "import": "./dist/index.mjs"
     },
     "./hooks": {
+      "types": "./dist/hooks/index.d.ts",
       "require": "./dist/hooks/index.js",
-      "import": "./dist/hooks/index.mjs",
-      "types": "./dist/hooks/index.d.ts"
+      "import": "./dist/hooks/index.mjs"
     },
     "./async": {
+      "types": "./dist/async/index.d.ts",
       "require": "./dist/async/index.js",
-      "import": "./dist/async/index.mjs",
-      "types": "./dist/async/index.d.ts"
+      "import": "./dist/async/index.mjs"
     },
     "./ai": {
+      "types": "./dist/ai/index.d.ts",
       "require": "./dist/ai/index.js",
-      "import": "./dist/ai/index.mjs",
-      "types": "./dist/ai/index.d.ts"
+      "import": "./dist/ai/index.mjs"
     },
     "./browser": {
+      "types": "./dist/browser/index.d.ts",
       "require": "./dist/browser/index.js",
-      "import": "./dist/browser/index.mjs",
-      "types": "./dist/browser/index.d.ts"
+      "import": "./dist/browser/index.mjs"
     },
     "./utils": {
+      "types": "./dist/utils/index.d.ts",
       "require": "./dist/utils/index.js",
-      "import": "./dist/utils/index.mjs",
-      "types": "./dist/utils/index.d.ts"
+      "import": "./dist/utils/index.mjs"
     },
     "./core": {
+      "types": "./dist/core/index.d.ts",
       "require": "./dist/core/index.js",
-      "import": "./dist/core/index.mjs",
-      "types": "./dist/core/index.d.ts"
+      "import": "./dist/core/index.mjs"
     }
   },
   "files": [
@@ -74,12 +74,12 @@
   },
   "dependencies": {
     "clsx": "^2.1.1",
-    "tailwind-merge": "^2.6.0"
+    "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {
-    "@types/node": "^22.13.5",
-    "@types/react": "^19.0.10",
-    "tsup": "^8.3.6",
-    "typescript": "^5.7.3"
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
   }
 }
